@@ -14,11 +14,27 @@ struct ContentView: View {
             
             HStack {
                 VStack{
+                    Spacer()
+                    HStack {
+                        
+                    Text("الجهرة")
+                        .font(.largeTitle)
+                        
+                        
+                    }
                     
                       Spacer()
+                     Spacer()
+                    HStack {
+                    Text("١٠:٠٢")
+                        .font(.system(size: 70))
+                        .bold()
                     
-                    
-                    
+                    Text("10")
+                        .font(.largeTitle)
+                        .padding(.bottom,-100)
+                    }
+                     Spacer()
                     
                     
                     HStack {
